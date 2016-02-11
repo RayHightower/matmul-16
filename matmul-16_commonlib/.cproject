@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.atdsp.exe.debug.1052954753">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.atdsp.exe.debug.1052954753" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.atdsp.exe.debug.1052954753" name="Debug" parent="cdt.managedbuild.config.gnu.atdsp.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.atdsp.exe.debug.1052954753." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.atdsp.exe.debug.1297661566" name="Epiphany" superClass="cdt.managedbuild.toolchain.gnu.atdsp.exe.debug">
+							<targetPlatform archList="all" id="cdt.managedbuild.target.gnu.platform.atdsp.exe.debug.1864632453" name="%PlatformName.Dbg" osList="all" superClass="cdt.managedbuild.target.gnu.platform.atdsp.exe.debug"/>
+							<builder buildPath="${workspace_loc:/matmul-16_commonlib/Debug}" id="cdt.managedbuild.target.gnu.builder.atdsp.exe.debug.456305172" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.atdsp.exe.debug"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.atdsp.exe.debug.1676544871" name="Epiphany assembler" superClass="cdt.managedbuild.tool.gnu.assembler.atdsp.exe.debug">
+								<option id="gnu.both.asm.option.include.paths.1619938497" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/matmul-16_commonlib/src}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.617275603" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.atdsp.base.530153481" name="Epiphany archiver" superClass="cdt.managedbuild.tool.gnu.archiver.atdsp.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.debug.1599032955" name="Epiphany compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.atdsp.exe.debug.option.optimization.level.904523755" name="Optimization Level" superClass="gnu.c.compiler.atdsp.exe.debug.option.optimization.level" value="gnu.c.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.atdsp.exe.debug.option.debugging.level.1143654189" name="Debug Level" superClass="gnu.c.compiler.atdsp.exe.debug.option.debugging.level" value="gnu.c.debugging.level.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.other.761187000" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -ffast-math -ftree-vectorize -funroll-loops -std=c99 -Wunused-variable" valueType="string"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1868006166" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="asm=__asm__"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.880286738" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/matmul-16_commonlib/src}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2119026299" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.atdsp.exe.debug.1630831321" name="Epiphany linker" superClass="cdt.managedbuild.tool.gnu.c.linker.atdsp.exe.debug">
+								<option id="gnu.c.link.option.libs.1421055579" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="matmul-16_commonlib"/>
+								</option>
+								<option id="gnu.c.link.option.paths.1190334069" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/matmul-16_commonlib/Debug}&quot;"/>
+								</option>
+								<option id="com.adapteva.cdt.epiphany.project.option.ldf.524972851" name="Select LDF" superClass="com.adapteva.cdt.epiphany.project.option.ldf" value="${PWD}/../../matmul-16_commonlib/src/fast.ldf" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1811901442" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.objcopy.atdsp.base.1092250576" name="Epiphany objcopy" superClass="cdt.managedbuild.tool.gnu.c.objcopy.atdsp.base"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.atdsp.exe.debug.1052954753.876852813" name="matlib.c" rcbsApplicability="disable" resourcePath="src/matlib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.debug.1599032955.1643077546">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.debug.1599032955.1643077546" name="Epiphany compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.debug.1599032955">
+							<option id="gnu.c.compiler.atdsp.exe.debug.option.optimization.level.13476145" name="Optimization Level" superClass="gnu.c.compiler.atdsp.exe.debug.option.optimization.level" value="gnu.c.optimization.level.most" valueType="enumerated"/>
+							<option id="gnu.c.compiler.atdsp.exe.debug.option.debugging.level.772731272" name="Debug Level" superClass="gnu.c.compiler.atdsp.exe.debug.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1148137248" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/matmul-16_commonlib"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/matmul-16_commonlib/Release"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="matmul-16_commonlib"/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412" name="Release" parent="cdt.managedbuild.config.gnu.atdsp.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.atdsp.exe.release.1411697711" name="Epiphany" superClass="cdt.managedbuild.toolchain.gnu.atdsp.exe.release">
+							<targetPlatform id="cdt.managedbuild.target.gnu.platform.atdsp.exe.release.907840429" name="%PlatformName.Dbg" superClass="cdt.managedbuild.target.gnu.platform.atdsp.exe.release"/>
+							<builder buildPath="${workspace_loc:/matmul-16_commonlib/Release}" id="cdt.managedbuild.target.gnu.builder.atdsp.exe.release.1288304088" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.atdsp.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.atdsp.exe.release.199031905" name="Epiphany assembler" superClass="cdt.managedbuild.tool.gnu.assembler.atdsp.exe.release">
+								<option id="gnu.both.asm.option.include.paths.462088182" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/matmul-16_commonlib/src}&quot;"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1557687177" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.atdsp.base.1865293621" name="Epiphany archiver" superClass="cdt.managedbuild.tool.gnu.archiver.atdsp.base"/>
+							<tool command="e-gcc" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release.1618913416" name="Epiphany compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.atdsp.exe.release.option.optimization.level.409359125" name="Optimization Level" superClass="gnu.c.compiler.atdsp.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.atdsp.exe.release.option.debugging.level.2068131440" name="Debug Level" superClass="gnu.c.compiler.atdsp.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.misc.other.1045644451" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -ffast-math -ftree-vectorize -funroll-loops -std=c99 -Wunused-variable" valueType="string"/>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1051650497" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="asm=__asm__"/>
+								</option>
+								<option id="gnu.c.compiler.option.include.paths.903592573" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/matmul-16_commonlib/src}&quot;"/>
+								</option>
+								<option id="Force remove unused.1208140053" name="Force remove unused function/code" superClass="Force remove unused" value="false" valueType="boolean"/>
+								<option id="com.adapteva.cdt.epiphany.project.option1.450600050" name="Set the prevailing mode of the floating point unit." superClass="com.adapteva.cdt.epiphany.project.option1" value="com.adapteva.cdt.epiphany.project.enumeratedOptionValue4" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.optimization.flags.1697965278" name="Other optimization flags" superClass="gnu.c.compiler.option.optimization.flags" value="-Ofast -falign-loops=8 -falign-functions=8" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1335280392" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.atdsp.exe.release.545808625" name="Epiphany linker" superClass="cdt.managedbuild.tool.gnu.c.linker.atdsp.exe.release">
+								<option id="gnu.c.link.option.libs.1591828936" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="matmul-16_commonlib"/>
+								</option>
+								<option id="gnu.c.link.option.paths.330909046" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/matmul-16_commonlib/Release}&quot;"/>
+								</option>
+								<option id="com.adapteva.cdt.epiphany.project.option.ldf.2012096433" name="Select LDF" superClass="com.adapteva.cdt.epiphany.project.option.ldf" value="${PWD}/../../matmul-16_commonlib/src/internal.ldf" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.285674880" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.objcopy.atdsp.base.675681168" name="Epiphany objcopy" superClass="cdt.managedbuild.tool.gnu.c.objcopy.atdsp.base"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412.484408235" name="matmul_unit.c" rcbsApplicability="disable" resourcePath="src/matmul_unit.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release.1618913416.1654824323">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release.1618913416.1654824323" name="Epiphany compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release.1618913416">
+							<option id="gnu.c.compiler.atdsp.exe.release.option.optimization.level.100364584" name="Optimization Level" superClass="gnu.c.compiler.atdsp.exe.release.option.optimization.level" value="gnu.c.optimization.level.most" valueType="enumerated"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1717662759" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412.1324890421" name="matlib.c" rcbsApplicability="disable" resourcePath="src/matlib.c" toolsToInvoke="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release.1618913416.1369484761">
+						<tool id="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release.1618913416.1369484761" name="Epiphany compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release.1618913416">
+							<option id="gnu.c.compiler.option.include.paths.654613048" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths"/>
+							<option id="Force remove unused.1025346360" name="Force remove unused function/code" superClass="Force remove unused" value="false" valueType="boolean"/>
+							<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1276435220" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<sourceEntries>
+						<entry excluding="ctimer_start.asm|ctimer_get.asm|common.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="matmul-16_commonlib.null.741018232" name="matmul-16_commonlib"/>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="1">
+		<resource resourceType="PROJECT" workspacePath="/matmul-16_commonlib"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.atdsp.exe.debug.1052954753;cdt.managedbuild.config.gnu.atdsp.exe.debug.1052954753.;cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.debug.1599032955;cdt.managedbuild.tool.gnu.c.compiler.input.2119026299">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="e-gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412;cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412.484408235;cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release.1618913416.1654824323;cdt.managedbuild.tool.gnu.c.compiler.input.1717662759">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.atdsp.exe.debug.1052954753;cdt.managedbuild.config.gnu.atdsp.exe.debug.1052954753.876852813;cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.debug.1599032955.1643077546;cdt.managedbuild.tool.gnu.c.compiler.input.1148137248">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412;cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412.1324890421;cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release.1618913416.1369484761;cdt.managedbuild.tool.gnu.c.compiler.input.1276435220">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412;cdt.managedbuild.config.gnu.atdsp.exe.release.1349422412.;cdt.managedbuild.tool.gnu.c.compiler.atdsp.exe.release.1618913416;cdt.managedbuild.tool.gnu.c.compiler.input.1335280392">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+			<profile id="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC">
+				<buildOutputProvider>
+					<openAction enabled="true" filePath=""/>
+					<parser enabled="true"/>
+				</buildOutputProvider>
+				<scannerInfoProvider id="specsFile">
+					<runAction arguments="-E -P -v -dD ${plugin_state_location}/specs.c" command="e-gcc" useDefault="true"/>
+					<parser enabled="true"/>
+				</scannerInfoProvider>
+			</profile>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+</cproject>

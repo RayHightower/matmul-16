@@ -1,0 +1,12 @@
+#Fri Oct 05 15:18:24 EDT 2012
+eclipse.preferences.version=1
+environment/project/cdt.managedbuild.config.gnu.atdsp.exe.debug.1388509211/BuildConfig/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.atdsp.exe.debug.1388509211/BuildConfig/operation=append
+environment/project/cdt.managedbuild.config.gnu.atdsp.exe.debug.1388509211/BuildConfig/value=${ConfigName}
+environment/project/cdt.managedbuild.config.gnu.atdsp.exe.debug.1388509211/append=true
+environment/project/cdt.managedbuild.config.gnu.atdsp.exe.debug.1388509211/appendContributed=true
+environment/project/cdt.managedbuild.config.gnu.atdsp.exe.release.716165927/BuildConfig/delimiter=\:
+environment/project/cdt.managedbuild.config.gnu.atdsp.exe.release.716165927/BuildConfig/operation=append
+environment/project/cdt.managedbuild.config.gnu.atdsp.exe.release.716165927/BuildConfig/value=${ConfigName}
+environment/project/cdt.managedbuild.config.gnu.atdsp.exe.release.716165927/append=true
+environment/project/cdt.managedbuild.config.gnu.atdsp.exe.release.716165927/appendContributed=true
